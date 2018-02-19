@@ -9,3 +9,5 @@ print(bad_round)
 print("\n" + golf_course[0].title() + " will be removed from my list.\n")
 del golf_course[0]
 print("Here are the remaining courses in order from best to worst: \n" + golf_course[2].title() + "\n" + golf_course[1].title() + "\n" + golf_course[0].title())
+golf_course.reverse()
+print(golf_course)
